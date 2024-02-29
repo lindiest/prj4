@@ -14,14 +14,19 @@ body {
 /* Styles for custom classes in the document. (There are more, try to find them out!) */
 
 .resume-header {
+	font-family: "Helvetica Neue";
+	color: #FFF2D8;
     background-color: #486F49;
 }
 
 .resume-main {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
     background-color: #FFF2D8;
 }
 
 .resume-aside {
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	font: lighter;
     background-color: #E59011;
 }
 
@@ -29,7 +34,7 @@ body {
 
 .biography-details li::before, .skill-list li::before {
 	content: ">";
-	font-weight: 800;
+	font-weight: 700;
 	display: inline-block;
 	width: 1em;
 	margin-left: -1em;
@@ -52,4 +57,9 @@ body {
 .mw-90 {
 }
 .mw-110 {
+}
+
+.potato{
+	font-family: "Lobster", sans-serif;
+	margin-top: inherit;
 }
